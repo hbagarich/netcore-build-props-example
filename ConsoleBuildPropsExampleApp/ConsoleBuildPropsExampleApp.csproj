@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <StartupObject>ConsoleBuildPropsExampleApp.Program</StartupObject>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetStandardLibraryProject\NetStandardLibraryProject.csproj" />
+  </ItemGroup>
+
+</Project>
